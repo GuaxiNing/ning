@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculadora {
+    width: 250px;
+    border: 1px solid #9b005a;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffcee5;
+}
+
+.tela {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.igual {
+    grid-column: span 4;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" class="tela" id="tela" readonly>
+        <div class="buttons">
+            <button onclick="adicionarNaTela(7)" >7</button>
+            <button onclick="adicionarNaTela(8)" >8</button>
+            <button onclick="adicionarNaTela(9)" >9</button>
+            <button onclick="divide()" >/</button>
+            <button onclick="adicionarNaTela(4)" >4</button>
+            <button onclick="adicionarNaTela(5)" >5</button>
+            <button onclick="adicionarNaTela(6)" >6</button>
+            <button onclick="multoplica()" >*</button>
+            <button onclick="adicionarNaTela(1)" >1</button>
+            <button onclick="adicionarNaTela(2)" >2</button>
+            <button onclick="adicionarNaTela(3)" >3</button>
+            <button onclick="menos()" >-</button>
+            <button onclick="limpa()" >C</button>
+            <button onclick="adicionarNaTela(0)" >0</button>
+            <button onclick="ponto()" >.</button>
+            <button onclick="mais()" >+</button>
+            <button class="igual" onclick="igual()">=</button>
+        </div>
+    </div>
+</body>
+</html>
